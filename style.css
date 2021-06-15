@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -249,7 +249,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, rgba(0, 0, 0, .6));
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -680,9 +680,9 @@ p {
     font-size: 18px;
 }
 
-.title-text,
-.text-finalaccroche {
+.title-text {
     font-weight: bold;
+    color: black!important;
 }
 
 .tight-width-whitespace {
@@ -741,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -780,7 +780,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
